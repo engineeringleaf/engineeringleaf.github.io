@@ -13,6 +13,12 @@
 4. Modify settings for your website
   * [use custom domain](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages)
   * [options for _config.yml file](https://jekyllrb.com/docs/configuration/)
-5. Additional resources
+5. How to install github pages locally
+  * Install jekyll on [ubuntu](https://jekyllrb.com/docs/installation/ubuntu/) and [mac](https://jekyllrb.com/docs/installation/macos/)
+  * If the package has a bundler, type `bundle install`
+  * Build the site `jekyll build` or just view the site with `jekyll serve`
+  * If you get an error about a missing gem file, look in the `Gemfile` and you can install missing gems/plugins with `gem install [package name]`
+6. Additional resources
   * [walkthrough of jeykll](https://jekyllrb.com/docs/step-by-step/01-setup/)
   * [video tutorials!](https://jekyllrb.com/tutorials/video-walkthroughs/)
+
